@@ -80,7 +80,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_13_144928) do
 
   create_table "products", force: :cascade do |t|
     t.string "name"
-    t.text "descriprion"
+    t.text "description"
     t.integer "price"
     t.integer "category_id", null: false
     t.boolean "active"
